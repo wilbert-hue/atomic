@@ -16,28 +16,28 @@ const regions = {
 // New segment definitions with market share splits (proportions within each segment type)
 const segmentTypes = {
   "By Type": {
-    "Sub-Normothermic Perfusion (20–34°C)": 0.55,
-    "Warm or Normothermic Perfusion (35–37°C)": 0.45
+    "Chip-Scale Atomic Clock (CSAC)": 0.40,
+    "Miniature Atomic Clocks": 0.35,
+    "Traditional Atomic Clocks": 0.25
   },
-  "By Organ Type": {
-    "Liver": 0.35,
-    "Heart": 0.22,
-    "Lung": 0.18,
-    "Kidney": 0.15,
-    "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": 0.10
+  "By Technology": {
+    "Hydrogen Maser Clock": 0.28,
+    "Rubidium Atomic Clock": 0.42,
+    "Cesium Atomic Clock": 0.20,
+    "Others (Optical Lattice Clock, etc.)": 0.10
   },
   "Application / Use Case": {
-    "Organ Preservation": 0.30,
-    "Viability Assessment": 0.25,
-    "Physiologic Transport": 0.20,
-    "Reconditioning Marginal Organs": 0.15,
-    "Others (Research Use / Protocol development)": 0.10
+    "Surveillance": 0.20,
+    "Navigation": 0.35,
+    "Electronic Warfare": 0.15,
+    "Telemetry and Communication": 0.30
   },
   "By End User": {
-    "Hospitals & Clinics": 0.40,
-    "Specialty Clinic/Centers": 0.25,
-    "Transplant Centers": 0.25,
-    "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": 0.10
+    "Defense & Space": 0.50,
+    "Telecommunications": 0.28,
+    "Research Laboratories": 0.15,
+    "Banking & Finance": 0.05,
+    "Others (Aerospace, etc.)": 0.02
   }
 };
 
@@ -72,28 +72,28 @@ const regionGrowthRates = {
 // Segment-specific growth multipliers (relative to regional base CAGR)
 const segmentGrowthMultipliers = {
   "By Type": {
-    "Sub-Normothermic Perfusion (20–34°C)": 0.95,
-    "Warm or Normothermic Perfusion (35–37°C)": 1.07
+    "Chip-Scale Atomic Clock (CSAC)": 1.18,
+    "Miniature Atomic Clocks": 1.08,
+    "Traditional Atomic Clocks": 0.95
   },
-  "By Organ Type": {
-    "Liver": 1.08,
-    "Heart": 1.05,
-    "Lung": 1.12,
-    "Kidney": 0.95,
-    "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": 1.20
+  "By Technology": {
+    "Hydrogen Maser Clock": 0.98,
+    "Rubidium Atomic Clock": 1.10,
+    "Cesium Atomic Clock": 1.05,
+    "Others (Optical Lattice Clock, etc.)": 1.25
   },
   "Application / Use Case": {
-    "Organ Preservation": 0.92,
-    "Viability Assessment": 1.15,
-    "Physiologic Transport": 1.05,
-    "Reconditioning Marginal Organs": 1.18,
-    "Others (Research Use / Protocol development)": 1.10
+    "Surveillance": 1.05,
+    "Navigation": 1.15,
+    "Electronic Warfare": 1.12,
+    "Telemetry and Communication": 1.08
   },
   "By End User": {
-    "Hospitals & Clinics": 0.98,
-    "Specialty Clinic/Centers": 1.10,
-    "Transplant Centers": 1.08,
-    "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": 1.05
+    "Defense & Space": 1.18,
+    "Telecommunications": 1.10,
+    "Research Laboratories": 1.05,
+    "Banking & Finance": 1.15,
+    "Others (Aerospace, etc.)": 1.08
   }
 };
 

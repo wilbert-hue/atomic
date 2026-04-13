@@ -1,28 +1,28 @@
 {
   "Global": {
     "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+      "Chip-Scale Atomic Clock (CSAC)": {},
+      "Miniature Atomic Clocks": {},
+      "Traditional Atomic Clocks": {}
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Technology": {
+      "Hydrogen Maser Clock": {},
+      "Rubidium Atomic Clock": {},
+      "Cesium Atomic Clock": {},
+      "Others (Optical Lattice Clock, etc.)": {}
     },
     "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+      "Surveillance": {},
+      "Navigation": {},
+      "Electronic Warfare": {},
+      "Telemetry and Communication": {}
     },
     "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+      "Defense & Space": {},
+      "Telecommunications": {},
+      "Research Laboratories": {},
+      "Banking & Finance": {},
+      "Others (Aerospace, etc.)": {}
     },
     "By Region": {
       "North America": {
